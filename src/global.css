@@ -1,0 +1,22 @@
+body {
+    overflow: hidden;
+}
+
+#page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#page>section {
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid green;
+    position: relative;
+}
+
+.tip {
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}

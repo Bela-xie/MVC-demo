@@ -1,0 +1,25 @@
+#app2 {
+    padding: 10px;
+}
+
+.tabBar {
+    display: flex;
+}
+
+.tabBar>li {
+    width: 130px;
+    height: 25px;
+    border: 1px solid gray;
+}
+
+.tabBar>li.selected {
+    background-color: #cca700;
+}
+
+.contentBar>li {
+    display: none;
+}
+
+.contentBar>li.show {
+    display: block;
+}
